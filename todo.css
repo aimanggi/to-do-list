@@ -1,0 +1,78 @@
+:root {
+	--righteous-font: 'Righteous', cursive;
+}
+
+.sec-main {
+    position: relative;
+    height: 672px;
+    background: url(GettyImages-538096543_medium.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0 0 0 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 14pt;
+}
+
+h1{
+    font-family: var(--righteous-font);
+    color: whitesmoke;
+    font-size: 48pt;
+}
+.strike {
+    text-decoration: line-through;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.small-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 15% 0 15%;
+    
+        
+}
+.todo-item-delete{
+    position: absolute;
+    right: 15%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18pt;
+}
+
+.new-todo-item {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.733);
+}
+.add-todo-item {
+    background-color:rgb(5, 111, 130);
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+
+.checkbox {
+    background-color:rgb(5, 111, 130);
+}

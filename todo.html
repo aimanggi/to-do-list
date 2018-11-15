@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="todo.css">
+    <title>What do you want to do ?</title>
+</head>
+<body>
+<div class="sec-main">
+<div class="container">
+    <h1>What do you want to do ?</h1>
+  <form id="form-add-todo" class="form-add-todo">
+    <label style="color:rgb(5, 111, 130)" for="todo">I want to:</label>
+    <input type="text" id="new-todo-item" class="new-todo-item" name="todo" />
+    <input type="submit" id="add-todo-item" class="add-todo-item" value="Let's go!" />
+</form>
+</div> 
+    <form id="form-todo-list">
+<div class="small-container">
+    <ul id="todo-list" class="todo-list">
+    </ul>
+</div>
+  </form>
+</div>
+  <script src="todo.js"></script>
+</body>
+</html>
