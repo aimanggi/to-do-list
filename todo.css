@@ -6,6 +6,9 @@
     position: relative;
     height: 672px;
     background: url(GettyImages-538096543_medium.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     margin: 0 0 0 0;
 }
@@ -22,7 +25,7 @@ h1{
     color: whitesmoke;
     font-size: 48pt;
 }
-.strike {
+.strike {   
     text-decoration: line-through;
   }
 
@@ -37,18 +40,20 @@ h1{
     flex-direction: column;
     align-items: flex-start;
     margin: 0 15% 0 15%;
+    height: 400px;
+    background-color: rgba(125, 107, 77 , 0.527);
+    overflow-y: scroll;
     
         
 }
 .todo-item-delete{
     position: absolute;
-    right: 15%;
+    right: 20%;
     margin-bottom: 20px;
     background-color: transparent;
     border: none;
     color: whitesmoke;
-    padding: 7px 15px;
-    text-align: center;
+        text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18pt;
@@ -63,7 +68,7 @@ h1{
     background-color: rgba(255, 255, 255, 0.733);
 }
 .add-todo-item {
-    background-color:rgb(5, 111, 130);
+    background-color:rgb(105, 85, 55);
     border: none;
     color: white;
     padding: 7px 15px;
@@ -71,8 +76,4 @@ h1{
     text-decoration: none;
     display: inline-block;
    
-}
-
-.checkbox {
-    background-color:rgb(5, 111, 130);
 }
